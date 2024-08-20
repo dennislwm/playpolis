@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyinfra = "==3.0.2"
+python-frontmatter = "==1.1.0"
+markopolis = "==0.3.4"
+
+[dev-packages]
+pytest = "==6.2.4"
+
+[requires]
+python_version = "3.12"
